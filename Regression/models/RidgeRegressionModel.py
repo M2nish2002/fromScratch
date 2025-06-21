@@ -1,5 +1,5 @@
-from BaseRegressionModel import Regression
-from Regularizations.L2 import L2_regularization
+from .BaseRegressionModel import Regression
+from ..Regularizations.L2 import L2_regularization
 
 class RidgeRegression(Regression):
     def __init__(self, alpha,n_iterations, learn_rate):
